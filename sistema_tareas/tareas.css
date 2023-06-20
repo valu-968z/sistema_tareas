@@ -1,0 +1,126 @@
+html{
+    font-size: 20px;
+    height: 10vh;
+    width: 100%;
+}
+body {
+    font-family: italic;
+    background-color: #C4EBF8;
+    min-height: 100vh;
+    margin: 0;
+}
+.titulo {
+    text-align: center;
+    margin-top: 0px;
+    font-family: italic;
+    margin-bottom: 0px;
+}
+.header {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.botonEquipos{
+    padding: 10px 150px;
+    background-color: #c47edbab;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    display: block; 
+}
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: italic;
+}
+.tabla th,
+.tabla td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000;
+}
+.tabla th {
+    background-color: #dbdbdb;
+    color: #333;
+}
+.tabdes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: italic;
+}
+.tabdes th,
+.tabdes td {
+    padding: 10px;
+    text-align: left;
+    border: 15px solid #c47edbab;
+}
+.tabdes th {
+    background-color: #dbdbdb;
+    color: #333;
+}
+.botones-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton {
+    padding: 4px 30px;
+    background-color: #2864ef94;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-family: italic;  
+}
+.salir-btn{
+    padding: 10px 50px;
+    background-color: #c47edbab;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    font-family: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+}
+footer {
+    margin-top: 100px;
+    background-color: #c47edbab;
+    font-family: italic;
+    bottom: 0%;
+    width: 100%;
+}
+.rectangulo{
+    background-color: #000000;
+    padding: 20px;
+    font-family: italic;
+    color:aliceblue;
+    margin-top: auto;
+}
+.iconop {
+    margin-left: 100px;
+    
+}
+.iconocasita{
+    margin-bottom: -100px;
+}
+.contendoraFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

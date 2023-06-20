@@ -1,0 +1,125 @@
+body {
+    font-family: italic;
+    background-color: #C4EBF8;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    position: relative;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #d9d9d938;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    bottom: 519px;
+    left: calc(50% - 40px); 
+    width: 80px;
+    height: 80px;
+    background-color: #159a9c44;
+    border-radius: 50%;
+    background-image: url('iconos/logoregister.svg');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-group {
+    margin-bottom: 2px;
+    font-family: italic;
+    padding: 10px 10px;
+    display: flex;
+}
+.form-group .icono {
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.form-group input[type="name"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius:20px;
+    background-color: #159a9c44;
+    border-color: #159a9c00;
+    font-family: italic;
+    font-size: 10px;
+}
+.ico-form{
+    display: flex;
+}
+
+.form-group .check {
+    display: flex;
+    align-items: center;
+}
+
+.form-group .check label {
+    margin-left: 5px;
+}
+
+.form-group button {
+    padding: 3px 49px;
+    background-color: #7DB6B7;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: italic;
+    font-size: 12px;
+    transform: translate(-50px, 40px);
+}   
+
+.separador-cupado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group-1 button {
+    padding: 2px 40px;
+    background-color: #c47edbab;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: italic;
+    transform: translate(-3px, 19px);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    font-family: italic;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+}
